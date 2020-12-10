@@ -12,3 +12,18 @@ for (let anchor of anchors) {
 		})
 	})
 }
+
+
+//аккордеон
+let blockText = document.getElementsByClassName("block-text-item");
+
+
+for (i = 0; i < blockText.length; i++) {
+	let textHidden = blockText[i].querySelector(".hidden");
+	console.log(textHidden);
+	if (textHidden != null) {
+		blockText[i].onclick = function() {
+			textHidden.classList.toggle("show");
+		}
+	}
+}

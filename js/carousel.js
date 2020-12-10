@@ -14,6 +14,20 @@ let listElems = carousel.querySelectorAll('li');
 let count = carousel.offsetWidth / 236;
 let width = 0;
 let position = 0;
+let carouselWidth = carousel.offsetWidth;
+
+/*let count;
+if (carouselWidth >= 970) {
+    count = 4;
+} else if (carouselWidth >= 780) {
+    count = 3;
+} else if (carouselWidth >= 530) {
+    count = 2;
+} else {
+    count = 1;
+}*/
+
+console.log (count);
 
 /*carousel.querySelector('.prev').onclick = function() {
     position += width * count;
@@ -29,7 +43,7 @@ carousel.querySelector('.next').onclick = function() {
 
 
 let carouselDots = document.querySelectorAll('.dots-item'); //кружочки
-let carouselIndex=0;
+let carouselIndex = 0;
 
 
 function carouselMove(up) {
@@ -39,7 +53,6 @@ function carouselMove(up) {
       width=0;
       for(var i=0;i < carouselIndex;i++) {
           width +=listElems[i].offsetWidth * count;
-          console.log(width, count);
       }
       list.style.marginLeft = (width * -1) + 'px';
 }

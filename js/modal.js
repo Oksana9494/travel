@@ -5,11 +5,13 @@
  btn.onclick = function () {
     modal.style.display = "block";
     clearTimeout(slideInterval);
+    document.body.style.overflowY = "hidden";
  }
 
  span.onclick = function () {
     modal.style.display = "none";
     slideInterval = setInterval(nextSlide,3000);
+    document.body.style.overflowY = "scroll";
  }
 
  window.onclick = function (event) {
@@ -18,3 +20,6 @@
         slideInterval = setInterval(nextSlide,3000);
     }
 }
+
+
+
