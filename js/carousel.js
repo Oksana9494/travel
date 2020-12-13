@@ -62,3 +62,4 @@ function dotMove(i) {
   
 
 [...carouselDots].forEach((dot, i) => dot.addEventListener('click', dotMove.bind(dot, i)));
+[...carouselDots].forEach((dot, i) => dot.addEventListener('touchmove', dotMove.bind(dot, i)));
