@@ -13,8 +13,7 @@ for (let anchor of anchors) {
 	})
 }
 
-
-//аккордеон
+// спрятанный текст
 let blockText = document.getElementsByClassName("block-text-item");
 
 

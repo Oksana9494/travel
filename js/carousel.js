@@ -16,31 +16,6 @@ let width = 0;
 let position = 0;
 let carouselWidth = carousel.offsetWidth;
 
-/*let count;
-if (carouselWidth >= 970) {
-    count = 4;
-} else if (carouselWidth >= 780) {
-    count = 3;
-} else if (carouselWidth >= 530) {
-    count = 2;
-} else {
-    count = 1;
-}*/
-
-console.log (count);
-
-/*carousel.querySelector('.prev').onclick = function() {
-    position += width * count;
-    position = Math.min(position, 0)
-    list.style.marginLeft = position + 'px';
-};
-
-carousel.querySelector('.next').onclick = function() {
-    position -= width * count;
-    position = Math.max(position, -width * (listElems.length - count));
-    list.style.marginLeft = position + 'px';
-};*/
-
 
 let carouselDots = document.querySelectorAll('.dots-item'); //кружочки
 let carouselIndex = 0;
