@@ -702,7 +702,41 @@ button {
 	margin-right: 35px;
 }
 .block-socials__img {
+	width: 13px;
+	height: 12px;
 	margin-right: 5px;
+}
+.twitter {
+	background-image: url(../img/icon/twitter_f.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;	
+}
+.block-socials__link:hover .twitter {
+	background-image: url(../img/icon/twitter_fBlue.svg);
+}
+.fb {
+	background-image: url(../img/icon/facebook.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.block-socials__link:hover .fb {
+	background-image: url(../img/icon/facebookBlue.svg);
+}
+.rss {
+	background-image: url(../img/icon/rss.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.block-socials__link:hover .rss {
+	background-image: url(../img/icon/rssBlue.svg);
+}
+.mail {
+	background-image: url(../img/icon/mail.svg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+.block-socials__link:hover .mail {
+	background-image: url(../img/icon/mailBlue.svg);
 }
 .block-socials__name {
 	font-family: 'PT Sans', sans-serif;
@@ -871,9 +905,6 @@ button {
 	}
 	.links li {
 		margin-right: 20px;
-	}
-	.links li:last-child {
-		margin-top: 8px;
 	}
 }
 @media screen and (max-width: 650px) {

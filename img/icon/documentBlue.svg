@@ -1,109 +1,29 @@
-<svg
-   xmlns:x="adobe:ns:meta/"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="19.5"
-   height="27"
-   viewBox="0 0 19.5 27"
-   version="1.1"
-   id="svg27"
-   sodipodi:docname="Shape3blue.svg"
-   enable-background="new"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     id="namedview29"
-     showgrid="false"
-     inkscape:zoom="8.7407407"
-     inkscape:cx="9.75"
-     inkscape:cy="13.5"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg27" />   
-<?xpacket end="w"?>
-  <defs
-     id="defs23">
-    <style
-       id="style4">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19.5" height="27" viewBox="0 0 19.5 27">
+  <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""/>
+   </rdf:RDF>
+</x:xmpmeta>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+<?xpacket end="w"?></metadata>
+<defs>
+    <style>
       .cls-1 {
         fill: #fff;
         fill-rule: evenodd;
         filter: url(#filter);
       }
     </style>
-    <filter
-       id="filter"
-       x="704.781"
-       y="147"
-       width="19.5"
-       height="27"
-       filterUnits="userSpaceOnUse">
-      <feOffset
-         result="offset"
-         dy="1"
-         in="SourceAlpha"
-         id="feOffset6" />
-      <feGaussianBlur
-         result="blur"
-         id="feGaussianBlur8" />
-      <feFlood
-         result="flood"
-         flood-color="#fff"
-         id="feFlood10" />
-      <feComposite
-         result="composite"
-         operator="in"
-         in2="blur"
-         id="feComposite12" />
-      <feBlend
-         result="blend"
-         in="SourceGraphic"
-         in2="composite"
-         id="feBlend14" />
-      <feFlood
-         result="flood-2"
-         flood-color="#7d7d7d"
-         id="feFlood16" />
-      <feComposite
-         result="composite-2"
-         operator="in"
-         in2="SourceGraphic"
-         id="feComposite18" />
-      <feBlend
-         result="blend-2"
-         in2="blend"
-         id="feBlend20" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter4731">
-      <feBlend
-         inkscape:collect="always"
-         mode="overlay"
-         in2="BackgroundImage"
-         id="feBlend4733" />
+    <filter id="filter" x="704.781" y="147" width="19.5" height="27" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#701dbb"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
     </filter>
   </defs>
-  <path
-     class="cls-1"
-     d="M723.617,173h-18.16a0.678,0.678,0,0,1-.672-0.684V147.684a0.678,0.678,0,0,1,.672-0.684h12.109a0.664,0.664,0,0,1,.47.2h0a0,0,0,0,0,0,0h0l6.053,6.158a0,0,0,0,1,0,0,0,0,0,0,1,0,0h0a0.686,0.686,0,0,1,.193.478h0v18.474A0.678,0.678,0,0,1,723.617,173Zm-17.487-1.368h16.814V154.526h-5.38a0.678,0.678,0,0,1-.673-0.684v-5.473H706.13v23.263Zm12.106-18.474h3.757l-3.757-3.822v3.822Zm2.354,14.71H708.484a0.684,0.684,0,0,1,0-1.368H720.59A0.684,0.684,0,0,1,720.59,167.868Zm0-3.078H708.484a0.685,0.685,0,0,1,0-1.369H720.59A0.685,0.685,0,0,1,720.59,164.79Zm-6.053-3.079h-6.053a0.685,0.685,0,0,1,0-1.369h6.053A0.685,0.685,0,0,1,714.537,161.711Zm-0.473-7.185h-5.58a0.678,0.678,0,0,1-.673-0.684v-3.079a0.678,0.678,0,0,1,.673-0.684h5.58a0.679,0.679,0,0,1,.673.684v3.079A0.679,0.679,0,0,1,714.064,154.526Zm-4.908-1.368h4.236v-1.711h-4.236v1.711Z"
-     transform="translate(-704.781 -147)"
-     id="path25"
-     style="fill:#701dbb;fill-opacity:1;filter:url(#filter4731)" />
+  <path class="cls-1" d="M723.617,173h-18.16a0.678,0.678,0,0,1-.672-0.684V147.684a0.678,0.678,0,0,1,.672-0.684h12.109a0.664,0.664,0,0,1,.47.2h0a0,0,0,0,0,0,0h0l6.053,6.158a0,0,0,0,1,0,0,0,0,0,0,1,0,0h0a0.686,0.686,0,0,1,.193.478h0v18.474A0.678,0.678,0,0,1,723.617,173Zm-17.487-1.368h16.814V154.526h-5.38a0.678,0.678,0,0,1-.673-0.684v-5.473H706.13v23.263Zm12.106-18.474h3.757l-3.757-3.822v3.822Zm2.354,14.71H708.484a0.684,0.684,0,0,1,0-1.368H720.59A0.684,0.684,0,0,1,720.59,167.868Zm0-3.078H708.484a0.685,0.685,0,0,1,0-1.369H720.59A0.685,0.685,0,0,1,720.59,164.79Zm-6.053-3.079h-6.053a0.685,0.685,0,0,1,0-1.369h6.053A0.685,0.685,0,0,1,714.537,161.711Zm-0.473-7.185h-5.58a0.678,0.678,0,0,1-.673-0.684v-3.079a0.678,0.678,0,0,1,.673-0.684h5.58a0.679,0.679,0,0,1,.673.684v3.079A0.679,0.679,0,0,1,714.064,154.526Zm-4.908-1.368h4.236v-1.711h-4.236v1.711Z" transform="translate(-704.781 -147)"/>
 </svg>
