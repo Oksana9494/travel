@@ -968,6 +968,9 @@ button {
 	.list-advantage__img {
 		margin: 0 auto 16px;
 	}
+	.links li:last-child {
+		margin-top: 8px;
+	}
 	.footer__desc {
 		width: 100%;
 	}
