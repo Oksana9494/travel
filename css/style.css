@@ -141,16 +141,13 @@ button {
 	background-repeat: no-repeat;
 	background-position: right 4% top 60%;
 }
-
-
-
 .menu {
 	position: absolute;
-	top: 90px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
+	margin-top: -95px;
 }
 .menu-item {
 	list-style:none;
@@ -805,6 +802,9 @@ button {
 	}
 }
 @media screen and (max-width: 970px) {
+	.location-select__arrows {
+		top: 2px;
+	}
 	.carousel {
 		width: 720px;
 		margin: 27px auto 35px;
@@ -881,11 +881,15 @@ button {
 		padding: 0;
 		margin-bottom: 10px;
 	}
-	.menu {
+	.menu-wrap {
 		position: fixed;
-    	top: calc(100vh - 102px);
-    	z-index: 3;
-    	width: 90%;
+		width: 100%;
+		z-index: 3;
+		top: 0;
+	}
+	.menu {
+		z-index: 3;
+		margin-top: 0;
 	}
 	.menu-link {
 		padding-bottom: 20px;
@@ -1002,6 +1006,11 @@ button {
 		width: 195px;
 		height: 35px;
 		padding: 6px;
+	}
+	.search,
+	.search::-webkit-input-placeholder {
+    	font-size: 12px;
+		line-height: 3;
 	}
 	.logo {
 		width: 125px;
