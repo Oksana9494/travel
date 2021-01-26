@@ -2,6 +2,7 @@ body, div, input, select, ul, li, h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
 	font-family: 'Arial', serif;
+	position: relative;
 }
 input, select {
 	border: none;
@@ -141,8 +142,11 @@ button {
 	background-repeat: no-repeat;
 	background-position: right 4% top 60%;
 }
-.menu {
+.menu-wrap{
 	position: absolute;
+	width: 100%;
+}
+.menu {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -833,6 +837,14 @@ button {
 	.location-select {
 		margin-left: 0;
 	}
+	.menu-wrap {
+		position: fixed;
+		width: 100%;
+		height: 50px;
+		background-color: #373737;
+		z-index: 3;
+		bottom: 0;
+	}
 	.search	{
 		width: 230px;
 	}
@@ -885,11 +897,11 @@ button {
 		position: fixed;
 		width: 100%;
 		z-index: 3;
-		top: 0;
+		bottom: 0;
 	}
 	.menu {
 		z-index: 3;
-		margin-top: 0;
+		margin-top: -70px;
 	}
 	.menu-link {
 		padding-bottom: 20px;
@@ -939,7 +951,7 @@ button {
 	    height: 43.4px;
 	}
 	.menu {
-		top: calc(100vh - 51px);
+		margin-top: -20px;
 	}
 	.menu-link {
 		padding-bottom: 2px;
@@ -948,7 +960,6 @@ button {
 	}
 	.menu-link:hover {
 		margin-top: -24px;
-		border-bottom: 6px solid #701dbb;
 	}
 	.menu-item:hover {
 		width: 110px;
@@ -959,6 +970,7 @@ button {
 	.menu-item:hover .menu-link {
 		padding-bottom: 10px;
 		margin-top: -25px;
+		border-bottom: 6px solid #701dbb;
 	}
 	.menu-item:hover .menu-link p {
 		display: block;
