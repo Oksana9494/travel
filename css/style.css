@@ -180,7 +180,7 @@ button {
 	border-bottom: 13px solid #701dbb;
 	margin-top: -7px;
 	-webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
-	        box-shadow: 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: 0 0 6px rgba(0,0,0,0.3);	
 }
 .menu-link p {
 	text-align: center;
@@ -290,6 +290,15 @@ button {
 	border-radius: 50%;
 	margin: 0 auto;
 	cursor: pointer;
+}
+.request:hover {
+	width: 140px;
+	height: 140px;
+	transition: 0.3s;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-ms-transition: 0.3s;
+	-o-transition: 0.3s;
 }
 .showing {
     opacity: 1;
@@ -604,7 +613,7 @@ button {
 .show {
 	display: block;
 }
-.block-text__icon {
+.block-text-icon-inner {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -613,17 +622,24 @@ button {
 	background-color: #8f33c4;
 	padding: 10px 9px;
 }
-.block-text-item:hover .block-text__icon {
-	background-color: #701dbb;
-	-webkit-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
-} 
-.block-text__icon p {
+.block-text-item:hover .block-text-icon-inner {
+	background-color: #373737;
+}
+.block-text__icon {
 	color: #fff;
 	font-size: 23px;
-	line-height: 0.5;
-	
+	line-height: 0.5;	
+}
+.icon-active {	
+	margin-bottom: 2px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+} 
+.icon-inner-active {
+	background-color: #373737;
 }
 .block-text__title {
 	font-family: 'Poppins', sans-serif;

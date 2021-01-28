@@ -19,10 +19,15 @@ let blockText = document.getElementsByClassName("block-text-item");
 
 for (i = 0; i < blockText.length; i++) {
 	let textHidden = blockText[i].querySelector(".hidden");
-	console.log(textHidden);
+	let openIcon = blockText[i].querySelector(".block-text__icon");
+	let iconInner = blockText[i].querySelector(".block-text-icon-inner");
 	if (textHidden != null) {
 		blockText[i].onclick = function() {
 			textHidden.classList.toggle("show");
+			openIcon.classList.toggle("icon-active");
+			iconInner.classList.toggle("icon-inner-active");
 		}
 	}
 }
+
+// активные элементы меню при скролле
