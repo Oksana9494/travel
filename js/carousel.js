@@ -15,10 +15,20 @@ let count = carousel.offsetWidth / 236;
 let width = 0;
 let position = 0;
 let carouselWidth = carousel.offsetWidth;
-
+let scrollsNumber = listElems.length / count;
 
 let carouselDots = document.querySelectorAll('.dots-item'); //кружочки
 let carouselIndex = 0;
+let currentIndex = 0;
+
+let carouselInterval = setInterval(function(){
+        dotMove(currentIndex);
+        currentIndex++;
+        
+        if(currentIndex > scrollsNumber) {
+          currentIndex = 0;
+          }
+    },3000);
 
 
 function carouselMove(up) {
