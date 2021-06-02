@@ -29,6 +29,10 @@ button {
   cursor: pointer;
   outline: none;
  }
+.non-scrolling {
+	overflow: hidden;
+	margin-right: 17px;
+}
 .container {
 	max-width: 940px;
 	margin: 0 auto;
@@ -318,8 +322,11 @@ button {
     z-index: 1000;
 }
 .modal .modal_content {
+	position: absolute;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: #ebebeb;
-    margin: 8% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 400px;
@@ -822,6 +829,9 @@ button {
 	}
 }
 @media screen and (max-width: 970px) {
+	.non-scrolling {
+		margin-right: initial;
+	}
 	.location-select__arrows {
 		top: 2px;
 	}
